@@ -31,7 +31,7 @@ MAX_JUMP_HEIGHT = 1.0 # About the height of a block.
 JUMP_SPEED = math.sqrt(2 * GRAVITY * MAX_JUMP_HEIGHT)
 TERMINAL_VELOCITY = 50
 
-PLAYER_HEIGHT = 2
+PLAYER_HEIGHT = 3
 
 if sys.version_info[0] >= 3:
     xrange = range
